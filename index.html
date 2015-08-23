@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-US" data-ember-extension="1">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="This website is to promote the Singapore timelapse video I am working on. ">
+  <meta name="keywords" content="Timelapse, video, Singapore, Romaric Juniet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>
+    Singapore Timelapse
+  </title>
+  <link rel='stylesheet' id='googlefonts-css' href='http://fonts.googleapis.com/css?family=Cabin%3A400%2C500%7COpen+Sans%3A300%2C400%2C700%7COswald%3A300%2C400%2C700%7CPT+Sans+Caption%3A400%2C700%27+rel%3D%27stylesheet%27+type%3D%27text%2Fcss&#038;ver=4.3' type='text/css' media='all' />
+  <link rel="stylesheet" id="style-css" href="style.css" type="text/css" media="all">
+  <link rel="stylesheet" id="font-awesome-css" href="font-awesome.css" type="text/css" media="all">
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery-migrate.min.js"></script>
+  <script>
+  var j$ = jQuery;
+  j$.noConflict();
+  j$(document).ready(function() {
+    j$('.nav a, .scroll').each(function() {
+      j$(this).click(function(event) {
+        event.preventDefault();
+        scrollLock = true;
+        var itemId = (j$(this).attr('href')).replace('#', '');
+        var position = j$('div#' + itemId).position();
+        j$('html,body').animate({
+            scrollTop: position.top + 'px'
+          },
+          1000,
+          'easeInOutExpo'
+        );
+      });
+    });
+    j$('.external').live('click', function(e) {
+      e.preventDefault();
+      var link = j$(this).attr('href');
+      if (typeof link != 'undefined') {
+        window.location.href = link;
+      }
+    });
+
+    j$("#first_section").backstretch([
+      "images/slider/15877395526_673dbfd16f_k.jpg",
+      "images/slider/15901230641_17c5d7fa51_k.jpg",
+      "images/slider/15183517510_d43cc412e4_k.jpg",
+    ], {
+      fade: 1050,
+      duration: 4000
+    });
+  });
+  </script>
+</head>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<body class="home blog" data-spy="scroll" data-target="nav">
+  <div class="loading" style="display: none;"></div>
+  <div id="first_section" style="overflow: hidden; position: relative; z-index: 0; height: 1249px; background: none;">
+    <div class="section" id="home-page">
+      <div id="center_adjust" style="height: 1249px;">
+        <div id="intro">
+          <h2 class="home_top_message">
+            Singapore Timelapse
+          </h2>
+          <h2 class="home_middle_message">The best timelapse video of Singapore is coming soon</h2>
+          <h2 class="home_bottom_message"> </h2>
+        </div>
+      </div>
+      <a href="#main_content" id="down_arrow"></a>
+      <div class="clear"></div>
+    </div>
+    <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 1293px; width: 1259px; z-index: -999998; position: absolute;"><img src="images/slider/15183517510_d43cc412e4_k.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 2068.8px; height: 1293px; max-width: none; z-index: -999999; left: -404.9px; top: 0px;"></div>
+  </div>
+  <!-- header -->
+  <header>
+    <div class="wrapper">
+      <div class="logo">
+        <a href="#home-page">
+          <p>
+            Singapore Timelapse
+          </p>
+        </a>
+      </div>
+      <nav>
+        <ul id="menu-menu-1" class="nav">
+          <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#home-page" data-description="">Home page</a></li>
+          <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page active"><a href="#what-is-it-about" data-description="">What is it about?</a></li>
+          <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#how-can-i-help" data-description="">How can I help?</a></li>
+          <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#how-can-i-follow-the-progress" data-description="">Following the progress</a></li>
+          <li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#contact" data-description="">Contact</a></li>
+        </ul>
+        <div id="nav_button"></div>
+      </nav>
+    </div>
+  </header>
+  <!-- main content -->
+  <div id="main_content">
+    <div class="section" id="what-is-it-about">
+      <div class="page_title_ctn">
+        <div class="wrapper">
+          <div class="page_title">
+            <h3>What is it about?</h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <p></p>
+        <div class="icon_box">
+          <icon class="icon-globe" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">What is this website?</h3>
+          <p>This website is to promote the timelapse video I am working on. </p>
+        </div>
+        <br>
+        <div class="icon_box">
+          <icon class="icon-facetime-video" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">Timelapse?</h3>
+          <p>A timelapse is a video made from multiple photos taken with big time interval. The result is a video that seems greatly accelerated which allows to see imperceptible movements such as cloud evolution and nightfall.</p>
+        </div>
+        <br>
+        <div class="icon_box">
+          <icon class="icon-play-circle" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">Can I see an example?</h3>
+          <p>Of course! here is a timelapse video I did in 2011 :
+            <br>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/iYbOx0gl9Tc" frameborder="0" allowfullscreen=""></iframe>
+            <br>
+          </p>
+        </div>
+        <br>
+        <div class="icon_box">
+          <icon class="icon-cog" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">Can I have more technical details?</h3>
+          <p></p>
+          <ul>
+            <li>The resolution will be 4K. 3840×2160 That is 4 time bigger than full HD, and will look incredible on your next TV.</li>
+            <li>Gear : I use my Pentax K-5 DSLR to take pictures at fixed intervals, using the built-in intervalometer. </li>
+            <li>Maths : For each second of video, I need at least 25 pictures. For 10 seconds, it is 250 pictures. Taking 1 picture every 30s, it takes 2h to take the 250 pictures.</li>
+            <li>Photo : I import and develop the pictures in lightroom. I then export them in JPEG format to video-editing software.</li>
+            <li>Video : The video needs to be stabilized and the flickering corrected.</li>
+            <li>Audio : I then have to find a music that will be a good fit on the video. After that, I edit the video to sync it on the music. Watch the video above and listen carefully to the music. It is synced with the video!</li>
+          </ul>
+          <p></p>
+        </div>
+        <p></p>
+      </div>
+    </div>
+    <div class="section" id="how-can-i-help">
+      <div class="page_title_ctn">
+        <div class="wrapper">
+          <div class="page_title">
+            <h3>How can I help?</h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <p>Thanks for asking! High points of view make great timelapses!</p>
+        <div class="icon_box">
+          <icon class="icon-thumbs-up" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">Individual</h3>
+          <p>If you can give me a special access to a restricted place with an awesome view, that would help me a lot to make a great video that you will enjoy. You will be credited for that in the video and the description.</p>
+        </div>
+        <div class="icon_box">
+          <icon class="icon-briefcase" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">Businesses</h3>
+          <p>
+            <br> Businesses (hotels, bar, restaurant, you name it), you will get free publicity as the video will be
+            <br> watched by a lot of people! They will see how awesome is the view from your place. And you will be credited in the video and the description.
+            <br> Local people will visit your place, tourist planning their trip will put your name in their “places to visit in Singapore” list!</p>
+        </div>
+        <div class="icon_box">
+          <icon class="icon-edit" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">Contact easily me</h3>
+          <p>
+            <br> You can:
+            <br> Send me a message on Facebook <a href="https://www.facebook.com/romaricj" title="https://www.facebook.com/romaricj" target="_blank"><strong>https://www.facebook.com/romaricj</strong></a>
+            <br> Or send me an email <strong>
+        <script type="text/javascript">
+          (function(){var ml="/o\"gse.ia>rpmtf- l<h:=@kcn",mi="B8@HA844E2<87A=1?A7IG2@C:5>E2<87A=1DH1I=8H=F47I38;1:5=7<5A8;456H1<2@9H1I=8H=F47I38;1:5=7<5A8;456H1<B089",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.write(o);}());
+        </script><noscript>*protected email*</noscript></strong>
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="how-can-i-follow-the-progress">
+      <div class="page_title_ctn">
+        <div class="wrapper">
+          <div class="page_title">
+            <h3>Following the progress</h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="icon_box">
+          <icon class="icon-play-circle" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">Show me what you have now!</h3>
+          <p>Here’s a first draft of what I have, not finished:
+            <br>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/bzUUZyyocNo" frameborder="0" allowfullscreen=""></iframe>
+            <br>
+          </p>
+        </div>
+        <div class="icon_box">
+          <icon class="icon-thumbs-up" style="color:#d6d6d6;"></icon>
+          <h3 style="color:#505050;">How can I know when it will be finished?</h3>
+          <p></p>
+          <ul>
+            <li>You can follow me on Youtube: <a href="https://www.youtube.com/user/romaricj">https://www.youtube.com/user/romaricj</a></li>
+            <li>Or on Facebook: <a href="https://www.facebook.com/">https://www.facebook.com/</a>romaricj</li>
+          </ul>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="contact">
+      <div class="page_title_ctn">
+        <div class="wrapper">
+          <div class="page_title">
+            <h3>Contact</h3>
+          </div>
+          <div class="page_subtitle"> </div>
+          <div class="to_top"></div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="wpcf7" id="wpcf7-f6-o1" dir="ltr">
+          <div class="screen-reader-response"></div>
+          <p>You can send me a message on Facebook <a href="https://www.facebook.com/romaricj" title="https://www.facebook.com/romaricj" target="_blank"><strong>https://www.facebook.com/romaricj</strong></a>
+            <br> Or send me an email <strong>
+          <script type="text/javascript">
+          (function(){var ml="/o\"gse.ia>rpmtf- l<h:=@kcn",mi="B8@HA844E2<87A=1?A7IG2@C:5>E2<87A=1DH1I=8H=F47I38;1:5=7<5A8;456H1<2@9H1I=8H=F47I38;1:5=7<5A8;456H1<B089",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.write(o);}());
+        </script><noscript>*protected email*</noscript>
+        </strong>
+            <br>
+          </p>
+          <div style="clear:both; padding-top:20px"></div>
+          <div class="sc_divider"><span style="font-size:20px; font-weight:bold; color:#676767;">About me</span></div>
+          <div style="clear:both; padding-top:50px"></div>
+          <div class="team-member one-fourth-sc">
+            <div class="member-photo">
+              <div class="bw-wrapper"><img width="263" height="263" src="images/1795851_10203071961028225_1672127030_o-e1421470196465-263x263.jpg" class="attachment-staff_tn wp-post-image" alt="1795851_10203071961028225_1672127030_o" title=""></div>
+            </div>
+            <div class="member-info">
+              <h3>Romaric Juniet</h3>
+              <span class="position"></span>
+              <p>IT engineer working in Singapore and enthusiast photographer
+                <br> Have a look at my <a href="http://romaric-juniet.com/" title="photo portfolio" target="_blank">photo portfolio</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer_bg">
+        <div class="wrapper">
+          <div id="footer">
+          </div>
+          <div id="footer_coms">
+            <div id="vimeo"> <a href="http://vimeo.com/romaricj" target="_blank" id="vimeo_img">Vimeo</a></div>
+            <div id="yt"> <a href="http://www.youtube.com/user/romaricj" target="_blank" id="yt_img">Youtube</a></div>
+            <div id="lin"> <a href="https://www.linkedin.com/in/romaricjuniet" target="_blank" id="lin_img">Linkedin</a></div>
+            <div id="flickr"> <a href="https://www.flickr.com/photos/romaricj" target="_blank" id="flickr_img">Flickr</a></div>
+            <div id="facebook"> <a href="https://www.facebook.com/romaricj" target="_blank" id="facebook_img">Facebook</a></div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-58675170-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+      <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+      <script type="text/javascript" src="jquery.backstretch.min.js"></script>
+      <script type="text/javascript" src="scripts.js"></script>
+    </div>
+</body>
+</html>

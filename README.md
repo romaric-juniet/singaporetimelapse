@@ -1,4 +1,4 @@
 # singaporetimelapse
-[Promo website for singaporetimelapse.com](https://singaporetimelapse.com)
+[Promo website for singaporetimelapse.com](http://singaporetimelapse.com)
 
 Static HTML/CSS/JS

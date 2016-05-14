@@ -169,9 +169,6 @@ img.alignleft, img.alignright, img.aligncenter {
 	position: relative;
 	overflow: hidden;
 }
-#main_content .section:first-child {
-	border-top: 81px solid #1c1d1f;
-}
 .section {
 	width: 100%;
 	min-height: 100%;
@@ -3224,7 +3221,7 @@ div .toggle:first-child {
 	-moz-transition: none;
 	transition: none;
 }
-.first_section {
+#first_section {
 	overflow: hidden;
 	position: relative;
 	z-index: 0;
@@ -3232,5 +3229,5 @@ div .toggle:first-child {
 	background: none;
 }
 @media screen and (min-width: 0px) and (max-width: 740px) {
-  header,.first_section  { display: none; } 
+  header,#first_section  { display: none; } 
 }

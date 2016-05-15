@@ -1,13 +1,13 @@
 module.exports = {
     entry: "./entry.js",
     output: {
-        path: __dirname,
+        path: __dirname + '/dist',
         filename: "bundle.js"
     },
     module: {
         loaders: [{
           test: /\.html$/,
-          loader: "html"
+          loader: "file"
         }, { 
             test: /\.css$/,
             loader: 'style-loader!css-loader'

@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
     "clean": "if exist dist rmdir dist /s /q",
-    "build": "npm run clean && webpack -p"
+    "build": "npm run clean && webpack -p && copy index.html dist && copy CNAME dist"
   },
   "repository": {
     "type": "git",

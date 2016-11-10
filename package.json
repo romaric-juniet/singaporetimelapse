@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
     "clean": "if exist dist rmdir dist /s /q",
-    "build": "npm run clean && webpack -p && copy index.html dist && copy CNAME dist"
+    "build": "npm run clean && webpack -p && copy index.html dist && copy CNAME dist",
+    "git-branch-draft": "git push origin `git subtree split --prefix dist master`:gh-pages --force"
   },
   "repository": {
     "type": "git",
